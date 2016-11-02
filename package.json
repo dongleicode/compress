@@ -7,7 +7,8 @@
     "uglifyJS": "rimraf build/js && mkdirp build/js && uglifyjs src/js/*.js -m -c -o build/js/app.js",
     "images": "rimraf build/images && mkdirp build/images && imagemin src/images/* -o build/images",
     "sprites": "rimraf build/images/sprites && mkdirp build/images/sprites && gulp",
-    "minifyCSS": "rimraf build/css && mkdirp build/css && gulp minifyCSS"
+    "minifyCSS": "rimraf build/css && mkdirp build/css && gulp minifyCSS",
+    "clean": "rimraf src/css/* src/js/* src/images/* && mkdirp src/images/sprites"
   },
   "keywords": [
     "skeleton",

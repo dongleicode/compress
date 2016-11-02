@@ -45,9 +45,12 @@ npm run images //压缩普通图片资源，最终文件在 build 目录中的 i
 npm run sprites //拼接压缩精灵图，最终文件在 build 目录中的 images/sprites 目录里
                //自动生成对应 css 文件在 src/css 文件夹中，暂时只支持 png 格式
 npm run minifyCSS //压缩 CSS 文件，最终压缩的文件在 build 目录中的 css 目录里
+npm run clean //只在初始化项目时使用，会清空 src 文件夹中的所有文件
 ```
 
 ### 注意事项
 1、引进第三方库如 JQuery 时，如果并不需要全部功能，可以按需定制下载相应资源，比如 [JQuery Builder](http://projects.jga.me/jquery-builder/)
+
 2、引入压缩后的 JS 文件时，注意引入顺序，依赖第三方库应该把第三方库放在前面
+
 3、尽量杜绝在 HTML 文件中写 JS 和 CSS
