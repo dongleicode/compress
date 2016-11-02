@@ -1,0 +1,57 @@
+### 安装
+
+1、安装[最新版NodeJS](https://nodejs.org/en/)
+
+2、打开命令行窗口，执行
+```
+npm install -g gulp
+```
+3、克隆本项目或者下载本项目压缩包到本地
+
+```
+git clone https://github.com/ithinco/your-feature.git
+
+```
+4、在命令行窗口的项目根目录下执行
+```
+npm install
+```
+### 项目结构
+
+
+```
+your-feature/
+  README.md 
+  node_modules/
+  package.json
+  .gitignore
+  src/               //开发时自己写的资源按分类放到 src 目录下的文件夹中并引用
+    js/
+    css/
+    images/
+      sprites/
+  lib/               //开发时引进的第三方资源按分类放到 lib 目录下的文件夹中并引用
+    js/
+    css/
+    images/
+  build/             //开发完成后执行相应命令压缩资源，在生产文件中引用 build 文件夹中的资源
+    js/
+    css/
+    images/
+      sprites/
+```
+
+### 可用命令
+
+```
+npm run uglifyJS //压缩 JS 文件，最终文件在 build 目录中的 js 目录里
+npm run images //压缩普通图片资源，最终文件在 build 目录中的 images 目录里
+npm run sprites //拼接压缩精灵图，最终文件在 build 目录中的 images/sprites 目录里
+               //自动生成对应 css 文件在 src/css 文件夹中，暂时只支持 png 格式
+npm run minifyCSS //压缩 CSS 文件，最终压缩的文件在 build 目录中的 css 目录里
+```
+
+### 注意事项
+1、引进第三方库如 JQuery 时，如果并不需要全部功能，可以按需定制下载相应资源，比如 [JQuery Builder](http://projects.jga.me/jquery-builder/)
+2、引入压缩后的 JS 文件时，注意引入顺序，依赖第三方库应该把第三方库放在前面
+3、尽量杜绝在 HTML 文件中写 JS 和 CSS
