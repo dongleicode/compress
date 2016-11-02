@@ -1,18 +1,14 @@
 ### 安装
 
-1、安装[最新版NodeJS](https://nodejs.org/en/)
+1、安装[6.9.1 NodeJS](https://nodejs.org/dist/v6.9.1/)
 
-2、打开命令行窗口，执行
-```
-npm install -g gulp
-```
-3、克隆本项目或者下载本项目压缩包到本地
+2、克隆本项目或者下载本项目压缩包到本地
 
 ```
 git clone https://github.com/ithinco/your-feature.git
 
 ```
-4、在命令行窗口的项目根目录下执行
+3、在命令行窗口的项目根目录下执行
 ```
 npm install
 ```
