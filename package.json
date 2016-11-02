@@ -4,10 +4,10 @@
   "description": "A project skeleton for feature development ",
   "main": "index.js",
   "scripts": {
-    "uglifyJS": "rm -rf build/js && mkdirp build/js && uglifyjs src/js/*.js -m -c -o build/js/app.js",
-    "images": "rm -rf build/images && mkdirp build/images && imagemin src/images/* -o build/images",
-    "sprites": "rm -rf build/images/sprites && mkdirp build/images/sprites && gulp",
-    "minifyCSS": "rm -rf build/css && mkdirp build/css && gulp minifyCSS"
+    "uglifyJS": "rimraf build/js && mkdirp build/js && uglifyjs src/js/*.js -m -c -o build/js/app.js",
+    "images": "rimraf build/images && mkdirp build/images && imagemin src/images/* -o build/images",
+    "sprites": "rimraf build/images/sprites && mkdirp build/images/sprites && gulp",
+    "minifyCSS": "rimraf build/css && mkdirp build/css && gulp minifyCSS"
   },
   "keywords": [
     "skeleton",
@@ -26,6 +26,7 @@
     "imagemin-cli": "^3.0.0",
     "merge-stream": "^1.0.0",
     "mkdirp": "^0.5.1",
+    "rimraf": "^2.5.4",
     "uglify-js": "^2.7.4",
     "vinyl-buffer": "^1.0.0"
   }
