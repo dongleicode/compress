@@ -1,0 +1,430 @@
+/* 神工客服导航栏样式 */
+.btn1{background-color:#ff7e00;}
+.btns{margin-top: 0;}
+.ccContent{
+	padding:5px;
+	}
+.ccUserName{
+	color:#fda949;
+	font-weight: bold;
+	}
+.ccContent section:first-child{
+	height: 60px;
+	padding:10px;
+	background: url('../images/6.png') no-repeat right center;
+	background-size: contain;
+	-webkit-background-size:contain;
+	position: relative;
+	 }
+.leftBg{
+	width: 100px;
+	height: 32px;
+	position: absolute;
+	left:0; 
+	bottom: 0;
+	background: url('../images/7.png') no-repeat left center;
+    background-size: contain;
+    -webkit-background-size:contain;
+}	
+.ccUserNavTips{
+	width: 660px;
+	height: 50px;
+	position: absolute;
+	left: 84px;
+	top:14px; 
+	background: #dcdcdc;
+	border-radius:6px;
+	line-height: 24px;
+	padding-left:14px;
+	font-size:12px;
+}
+.ccUserNavTips:after{
+	content:"";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border: 10px solid transparent ;
+	border-bottom-color:#dcdcdc;
+	right:-10px; 
+	top:14px;
+	z-index:2;
+} 
+	 
+.ccContent section:nth-child(2){
+	height: auto;
+	padding:0 10px 0 10px;
+	}
+	
+.ccContent section:nth-child(2) h5{
+	height: 40px;
+	line-height: 40px;
+	}
+#ccNav{
+	height: 380px; 
+	overflow: auto;
+}	
+#ccNav>div{
+	
+	display: inline-block;
+	width: 180px;
+	margin:0 8px 20px 0;
+	border:1px solid #ccc; 
+	border-radius:10px;
+	height: 358px;	
+    position: relative;
+    background-color: #f0f0f0;
+	   }
+#ccNav>div:first-child{
+	
+    margin-left: 10px;
+	
+}	   
+#ccNav>div .btns{
+
+	  }
+#ccNav>div h6{
+	text-align: center;
+	overflow: hidden;
+	height: 90px;
+    background-size: contain;
+    -webkit-background-size:88px 60px;
+    border-radius:8px 8px 0 0;
+	}	
+	
+#ccNav>div h6 span{
+	max-height:40px;
+	width:100px;
+	overflow:hidden;
+	position: absolute;
+	left:50%;
+	margin-left: -50px;
+	top: 80px;
+    border-radius: 8px;
+    color: #fff;
+}	
+
+.navH6bg1{	
+	background: url('../images/1.png') #157dcb no-repeat center center;
+}
+.navH6bg1 span{	
+    background-color: #157dcb;
+}
+
+.navH6bg2{	
+	background: url('../images/2.png') #fda949 no-repeat center center;
+}
+.navH6bg2 span{	
+    background-color: #fda949;
+}
+
+.navH6bg3{	
+	background: url('../images/3.png') #51b05d no-repeat center center;
+}
+.navH6bg3 span{	
+    background-color: #51b05d;
+}
+.navH6bg4{	
+	background: url('../images/4.png') #e94b50 no-repeat center center;
+}
+.navH6bg4 span{	
+    background-color: #e94b50;
+}
+
+.navH6bg5{	
+	background: url('../images/5.png') #27b7d2 no-repeat center center;
+}
+.navH6bg5 span{	
+    background-color: #27b7d2;
+}
+.navH6bg6{	
+	background: url('../images/1.png') #157dcb no-repeat center center;
+}
+.navH6bg6 span{	
+    background-color: #157dcb;
+}
+
+.navH6bg7{	
+	background: url('../images/2.png') #fda949 no-repeat center center;
+}
+.navH6bg7 span{	
+    background-color: #fda949;
+}
+
+.navH6bg8{	
+	background: url('../images/3.png') #51b05d no-repeat center center;
+}
+.navH6bg8 span{	
+    background-color: #51b05d;
+}
+.navH6bg9{	
+	background: url('../images/4.png') #e94b50 no-repeat center center;
+}
+.navH6bg9 span{	
+    background-color: #e94b50;
+}
+
+.navH6bg10{	
+	background: url('../images/5.png') #27b7d2 no-repeat center center;
+}
+.navH6bg10 span{	
+    background-color: #27b7d2;
+}
+.navH6bg11{	
+	background: url('../images/1.png') #157dcb no-repeat center center;
+}
+.navH6bg11 span{	
+    background-color: #157dcb;
+}
+
+.navH6bg12{	
+	background: url('../images/2.png') #fda949 no-repeat center center;
+}
+.navH6bg12 span{	
+    background-color: #fda949;
+}
+
+.navH6bg13{	
+	background: url('../images/3.png') #51b05d no-repeat center center;
+}
+.navH6bg13 span{	
+    background-color: #51b05d;
+}
+.navH6bg14{	
+	background: url('../images/4.png') #e94b50 no-repeat center center;
+}
+.navH6bg14 span{	
+    background-color: #e94b50;
+}
+
+.navH6bg15{	
+	background: url('../images/5.png') #27b7d2 no-repeat center center;
+}
+.navH6bg15 span{	
+    background-color: #27b7d2;
+}
+.navH6bg16{	
+	background: url('../images/1.png') #157dcb no-repeat center center;
+}
+.navH6bg16 span{	
+    background-color: #157dcb;
+}
+
+.navH6bg17{	
+	background: url('../images/2.png') #fda949 no-repeat center center;
+}
+.navH6bg17 span{	
+    background-color: #fda949;
+}
+
+.navH6bg18{	
+	background: url('../images/3.png') #51b05d no-repeat center center;
+}
+.navH6bg18 span{	
+    background-color: #51b05d;
+}
+.navH6bg19{	
+	background: url('../images/4.png') #e94b50 no-repeat center center;
+}
+.navH6bg19 span{	
+    background-color: #e94b50;
+}
+
+.navH6bg20{	
+	background: url('../images/5.png') #27b7d2 no-repeat center center;
+}
+.navH6bg20 span{	
+    background-color: #27b7d2;
+}
+.navH6bg21{	
+	background: url('../images/1.png') #157dcb no-repeat center center;
+}
+.navH6bg21 span{	
+    background-color: #157dcb;
+}
+
+.navH6bg22{	
+	background: url('../images/2.png') #fda949 no-repeat center center;
+}
+.navH6bg22 span{	
+    background-color: #fda949;
+}
+
+.navH6bg23{	
+	background: url('../images/3.png') #51b05d no-repeat center center;
+}
+.navH6bg23 span{	
+    background-color: #51b05d;
+}
+.navH6bg24{	
+	background: url('../images/4.png') #e94b50 no-repeat center center;
+}
+.navH6bg24 span{	
+    background-color: #e94b50;
+}
+
+.navH6bg25{	
+	background: url('../images/5.png') #27b7d2 no-repeat center center;
+}
+.navH6bg25 span{	
+    background-color: #27b7d2;
+}
+.navH6bg26{	
+	background: url('../images/1.png') #157dcb no-repeat center center;
+}
+.navH6bg26 span{	
+    background-color: #157dcb;
+}
+
+.navH6bg27{	
+	background: url('../images/2.png') #fda949 no-repeat center center;
+}
+.navH6bg27 span{	
+    background-color: #fda949;
+}
+
+.navH6bg28{	
+	background: url('../images/3.png') #51b05d no-repeat center center;
+}
+.navH6bg28 span{	
+    background-color: #51b05d;
+}
+.navH6bg29{	
+	background: url('../images/4.png') #e94b50 no-repeat center center;
+}
+.navH6bg29 span{	
+    background-color: #e94b50;
+}
+
+.navH6bg30{	
+	background: url('../images/5.png') #27b7d2 no-repeat center center;
+}
+.navH6bg30 span{	
+    background-color: #27b7d2;
+}
+.navH6bg31{	
+	background: url('../images/1.png') #157dcb no-repeat center center;
+}
+.navH6bg31 span{	
+    background-color: #157dcb;
+}
+
+.navH6bg32{	
+	background: url('../images/2.png') #fda949 no-repeat center center;
+}
+.navH6bg32 span{	
+    background-color: #fda949;
+}
+
+.navH6bg33{	
+	background: url('../images/3.png') #51b05d no-repeat center center;
+}
+.navH6bg33 span{	
+    background-color: #51b05d;
+}
+.navH6bg34{	
+	background: url('../images/4.png') #e94b50 no-repeat center center;
+}
+.navH6bg34 span{	
+    background-color: #e94b50;
+}
+
+.navH6bg35{	
+	background: url('../images/5.png') #27b7d2 no-repeat center center;
+}
+.navH6bg35 span{	
+    background-color: #27b7d2;
+}
+.navH6bg36{	
+	background: url('../images/1.png') #157dcb no-repeat center center;
+}
+.navH6bg36 span{	
+    background-color: #157dcb;
+}
+
+.navH6bg37{	
+	background: url('../images/2.png') #fda949 no-repeat center center;
+}
+.navH6bg37 span{	
+    background-color: #fda949;
+}
+
+.navH6bg38{	
+	background: url('../images/3.png') #51b05d no-repeat center center;
+}
+.navH6bg38 span{	
+    background-color: #51b05d;
+}
+.navH6bg39{	
+	background: url('../images/4.png') #e94b50 no-repeat center center;
+}
+.navH6bg39 span{	
+    background-color: #e94b50;
+}
+
+.navH6bg40{	
+	background: url('../images/5.png') #27b7d2 no-repeat center center;
+}
+.navH6bg10 span{	
+    background-color: #27b7d2;
+}
+#ccNav>div ul{
+	height: 200px;
+	margin: 24px 14px 0 14px;
+	overflow: auto;
+	
+	
+	
+	  }
+#ccNav>div ul li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    padding-left:6px;
+	}
+#ccNav>div ul li input[type="radio"]{
+	opacity:0;
+}
+#ccNav>div ul li .radioCheck{
+	position: absolute;
+	left:-5px; top:0;
+	width: 30px; 
+	height: 30px;
+	cursor: pointer;
+	z-index:99999;
+}	
+#ccNav>div ul li .nocheck{
+	background: url('../images/noCheck.png') no-repeat center center;
+}
+#ccNav>div ul li .okcheck{
+	background: url('../images/okCheck.png')  no-repeat center center;
+}
+#ccNav>div input[type="radio"]{
+	margin-right:5px;
+	vertical-align: middle;
+	}
+#ccNav>div label{
+	cursor: pointer;
+	}
+.ccContent section:nth-child(3){
+	position: relative;
+	height: 50px;
+}	
+.ccContent section:nth-child(3) span#historySession{
+	cursor:pointer;
+	display:block;
+	width: 80px;
+	height: 40px;
+	line-height:40px;
+	position: absolute;
+	right: 10px;
+	bottom: 0;
+	background: url('../images/historyCC.png') no-repeat center right;
+	
+}	
+
+#scalBtn{
+	position: fixed;
+	top:0;
+	right:0;
+	z-index: 99999999999999;
+}

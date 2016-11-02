@@ -1,0 +1,32 @@
+{
+  "name": "your-feature",
+  "version": "0.0.1",
+  "description": "A project skeleton for feature development ",
+  "main": "index.js",
+  "scripts": {
+    "uglifyJS": "rm -rf build/js && mkdirp build/js && uglifyjs src/js/*.js -m -c -o build/js/app.js",
+    "images": "rm -rf build/images && mkdirp build/images && imagemin src/images/* -o build/images",
+    "sprites": "rm -rf build/images/sprites && mkdirp build/images/sprites && gulp",
+    "minifyCSS": "rm -rf build/css && mkdirp build/css && gulp minifyCSS"
+  },
+  "keywords": [
+    "skeleton",
+    "shengong",
+    "front-end"
+  ],
+  "author": "Guan Ce",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-csso": "^2.0.0",
+    "gulp-imagemin": "^3.1.0",
+    "gulp.spritesmith": "^6.2.1",
+    "imagemin-cli": "^3.0.0",
+    "merge-stream": "^1.0.0",
+    "mkdirp": "^0.5.1",
+    "uglify-js": "^2.7.4",
+    "vinyl-buffer": "^1.0.0"
+  }
+}
