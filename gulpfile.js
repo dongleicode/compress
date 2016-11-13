@@ -15,7 +15,7 @@ gulp.task('default', function () {
   var imgStream = spriteData.img
     .pipe(buffer())
     .pipe(imagemin())
-    .pipe(gulp.dest('build/images/sprites/'));
+    .pipe(gulp.dest('src/css/'));
 
   var cssStream = spriteData.css
     .pipe(gulp.dest('src/css/'));

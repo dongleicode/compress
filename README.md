@@ -26,11 +26,7 @@ your-feature/
     css/
     images/
       sprites/
-  lib/               //开发时引进的第三方资源按分类放到 lib 目录下的文件夹中并引用
-    js/
-    css/
-    images/
-  build/             //开发完成后执行相应命令压缩资源，在生产文件中引用 build 文件夹中的资源
+  build/             //开发完成后执行相应命令压缩资源，在生产文件中引用功能目录下 build 文件夹中的资源
     js/
     css/
     images/
@@ -42,10 +38,8 @@ your-feature/
 ```
 npm run uglifyJS //压缩 JS 文件，最终文件在 build 目录中的 js 目录里
 npm run images //压缩普通图片资源，最终文件在 build 目录中的 images 目录里
-npm run sprites //拼接压缩精灵图，最终文件在 build 目录中的 images/sprites 目录里
-               //自动生成对应 css 文件在 src/css 文件夹中，暂时只支持 png 格式
+npm run sprites //拼接压缩精灵图，最终生成的 sprites 文件及相应 css 在 src/css 文件夹中，暂时只支持 png 格式
 npm run minifyCSS //压缩 CSS 文件，最终压缩的文件在 build 目录中的 css 目录里
-npm run clean //只在初始化项目时使用，会清空 src 文件夹中的所有文件
 ```
 
 ### 注意事项
