@@ -1,5 +1,7 @@
 ### 安装
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ithinco/your-feature.svg)](https://greenkeeper.io/)
+
 1、安装[6.9.1 NodeJS](https://nodejs.org/dist/v6.9.1/)
 
 2、克隆本项目或者下载本项目压缩包到本地
